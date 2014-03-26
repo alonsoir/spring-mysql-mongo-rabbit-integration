@@ -14,7 +14,7 @@
   	<mongo:repositories base-package="org.krams.tutorial.repository.mongo" />
   
 	<!-- Default bean name is 'mongo' -->
-	<mongo:mongo host="localhost" port="27017"/>
+	<mongo:mongo host="127.0.0.1" port="27017"/>
 	
 	<!-- Offers convenience methods and automatic mapping between MongoDB JSON documents and your domain classes. -->
   	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">

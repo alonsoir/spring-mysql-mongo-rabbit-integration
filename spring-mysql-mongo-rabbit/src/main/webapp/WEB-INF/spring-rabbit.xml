@@ -38,7 +38,7 @@
 	
 	<bean id="rabbitConnectionFactory" class="org.springframework.amqp.rabbit.connection.CachingConnectionFactory"
 		p:username="guest" p:password="guest" p:port="5672">
-		<constructor-arg value="localhost" />
+		<constructor-arg value="127.0.0.1" />
 	</bean>
 	
 	<!-- Cloud-based
