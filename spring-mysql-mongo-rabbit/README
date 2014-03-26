@@ -9,7 +9,4 @@ Building with Maven
 Import the project in Eclipse
 =================
 1. Ensure Maven is installed
-2. Open a command window (Windows) or a terminal (Linux/Mac)
-3. Run the following command:
-
-	mvn eclipse:eclipse -Dwtpversion=2.0
+2. File, Import, Existing maven projects, choose your maven project, Finish
